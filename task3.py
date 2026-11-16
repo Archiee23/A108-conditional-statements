@@ -31,3 +31,13 @@ Enter a number: 10000
 
 
 """
+
+number = float(input("Enter a number: "))
+if number > 1000:
+  print("The number is larger than 1000")
+elif number > 100:
+  print("The number is larger than 100")
+elif number > 10:
+  print("The number is larger than 10")
+elif number > 0:
+  print("The number is larger than 0")
