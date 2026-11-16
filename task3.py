@@ -41,3 +41,5 @@ elif number > 10:
   print("The number is larger than 10")
 elif number > 0:
   print("The number is larger than 0")
+else:
+  print("The number is 0 or less")
