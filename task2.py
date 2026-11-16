@@ -20,3 +20,6 @@ positive
 Enter a number: -1.2
 negative
 """
+
+number = float(input("Enter a number: "))
+               
