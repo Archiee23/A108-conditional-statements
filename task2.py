@@ -23,9 +23,9 @@ negative
 
 number = float(input("Enter a number: "))
 if number > 0:
-print("Positive")
+ print("Positive")
 elif number < 0:
-print("Negative")
+ print("Negative")
 else:
-print("Zero")
+ print("Zero")
 
