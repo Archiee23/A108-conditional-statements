@@ -33,3 +33,17 @@ that is an obtuse triangle
 
 
 """
+
+a = float(input("Enter a value for side a: "))
+b = float(input("Enter a value for side b: "))
+c = float(input("Enter a value for side c: "))
+sides = sorted([a, b, c])
+a = sides[0]
+b = sides[1]
+c = sides[2]
+calculated = (a**2 + b**2) ** 0.5
+difference = abs(c - calculated) / calculated * 100
+if difference < 2:
+    print("This is a right triangle")
+else:
+    print("This is not a right triangle")
