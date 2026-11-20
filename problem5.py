@@ -29,3 +29,20 @@ Enter c: 8
 the equation can not be factored
 
 """
+
+a = float(input("Enter a value for a: "))
+b = float(input("Enter a value for b: "))
+c = float(input("Enter a value for c: "))
+
+discriminant = b**2 - 4*a*c
+
+if discriminant < 0:
+    print("There are no real solutions")
+    print("The equation cannot be factored")
+else:
+    print("There are real solutions")
+
+    if (discriminant ** 0.5).is_integer():
+        print("The equation can be factored")
+    else:
+        print("The equation cannot be factored")
