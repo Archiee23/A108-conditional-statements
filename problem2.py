@@ -10,3 +10,9 @@
 # Outputs:
 # "the number is an integer"
 # "the number is not an integer"
+
+number = float(input("Enter a number: "))
+if number.is_integer():
+    print("The number is an integer")
+else:
+     print("The number is not an integer")
